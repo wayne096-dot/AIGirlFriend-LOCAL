@@ -1,6 +1,6 @@
 ## Local AI Assistant(Girlfriend) System
 
-這是一個基於 **全本地運行 (Offline-only)** 的 AI 聊天助手（女友）系統。它結合了大型語言模型 (LLM) 的邏輯推理與 VITS 的高音質語音合成，並搭配 Live2D 模型進行實時嘴型同步與角色互動。
+一個基於 **全本地運行 (Offline-only)** 的 AI 聊天助手（女友）系統。它結合了大型語言模型 (LLM) 的邏輯推理與 VITS 的高音質語音合成，並搭配 Live2D 模型進行實時嘴型同步與角色互動。
 
 所有對話數據與 AI 推理均在本地完成，保障您的隱私安全。
 
@@ -37,9 +37,13 @@
 * **sounddevice**: [MIT License](https://github.com/spatialaudio/python-sounddevice/blob/master/LICENSE)
 * **pykakasi**: [MIT License](https://github.com/miurahr/pykakasi/blob/master/LICENSE)
 * **Live2dTK**: [MIT License/GPL](https://github.com/miurahr/pykakasi/blob/master/LICENSE)
+* **AI模型Qwen/Qwen3-0.6B-GGUF**： [Apache-2.0](https://github.com/apache)
 
 
 
 ### 重要提示 (Models & Assets)
 * **Tamamo Cross TTS 模型**: 基於 VITS 架構，通常屬於開源訓練權重，請遵循原訓練者的授權說明。
 * **Live2D 模型**: 本專案僅提供程式架構。**若您使用特定角色模型，請務必確認該模型檔案的著作權授權** (例如是否禁止商用、是否需署名等)。本專案作者不對用戶自行使用的模型版權負責。
+
+### 注意事項
+* **AI模型**：建議使用Qwen 7b 4k_m以上的模型
